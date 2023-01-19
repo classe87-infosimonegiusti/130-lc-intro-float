@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #0E0E17;
+}
+
+h1 {
+    color: #E53170;
+    margin: 40px 0px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #FA8907;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    color: white;
+    margin-bottom: 16px;
+}
+
+
+.section-left img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.section-right img {
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+
+.clearfix::after {
+    content: '';
+    clear:both;
+    display: table;
+}
